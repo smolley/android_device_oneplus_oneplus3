@@ -223,6 +223,7 @@ include device/qcom/sepolicy/sepolicy.mk
 
 #BOARD_SEPOLICY_DIRS += $(PLATFORM_PATH)/sepolicy
 
+    /vendor/lib/hw/camera.msm8996.so|libcamera_shim.so
 # Thermal
 USE_DEVICE_SPECIFIC_THERMAL := true
 
